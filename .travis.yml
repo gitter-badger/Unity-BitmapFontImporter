@@ -7,12 +7,7 @@ rvm:
 
 env:
   matrix:
-    - UNITY_VERSION=beta
-    - UNITY_VERSION=last
-    - UNITY_VERSION=5.3
-    - UNITY_VERSION=5.2
-    - UNITY_VERSION=5.1
-    - UNITY_VERSION=5.0
+    - UNITY_VERSION=5.6
 
 before_install:
 - chmod -R +x ./Scripts
