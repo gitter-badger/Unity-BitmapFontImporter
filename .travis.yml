@@ -20,4 +20,5 @@ before_install:
 install:
 - travis_wait 50 ./Scripts/install.sh
 script:
+- find $(pwd)
 - ./Scripts/build.sh
