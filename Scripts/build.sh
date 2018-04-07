@@ -7,6 +7,7 @@ echo "Run test "
   -batchmode \
   -nographics \
   -silent-crashes \
+  -force-free \
   -logFile $(pwd)/unity.log \
   -projectPath $(pwd) \
   -executeMethod MyTest.Test \
