@@ -7,6 +7,7 @@ echo "Run test "
   -batchmode \
   -nographics \
   -silent-crashes \
+  -force-free \
   -username 'ci@litefeel.com' \
   -password '123456Qq' \
   -logFile $(pwd)/unity.log \
