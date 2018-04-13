@@ -8,8 +8,9 @@ echo "Run test "
   -nographics \
   -silent-crashes \
   -force-free \
-  -username 'ci@litefeel.com' \
-  -password '123456Qq' \
+  -username ci@litefeel.com \
+  -password 123456Qq \
+  -serial F4-KJ25-RACB-ZPP6-5KDU-XXXX
   -logFile $(pwd)/unity.log \
   -projectPath $(pwd) \
   -executeMethod MyTest.Test \
