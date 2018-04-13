@@ -10,7 +10,7 @@ echo "Run test "
   -force-free \
   -username ci@litefeel.com \
   -password 123456Qq \
-  -serial F4-KJ25-RACB-ZPP6-5KDU-XXXX
+  -serial F4-KJ25-RACB-ZPP6-5KDU-XXXX \
   -logFile $(pwd)/unity.log \
   -projectPath $(pwd) \
   -executeMethod MyTest.Test \
